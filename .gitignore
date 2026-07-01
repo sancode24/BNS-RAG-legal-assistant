@@ -1,0 +1,29 @@
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Generated local indexes / embeddings
+bns_index/
+chroma_db/
+embeddings.npy
+chunks.jsonl
+
+# Large/source PDFs - keep local unless you have permission to redistribute
+data/*.pdf
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
