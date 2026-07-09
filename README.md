@@ -38,18 +38,8 @@ The app extracts text from a BNS PDF, chunks it, creates local sentence-transfor
 └── README.md
 ```
 
-## What NOT to upload to GitHub
 
-Do **not** upload:
 
-- `.env` — contains your private Gemini API key
-- `bns_index/` — generated embeddings/index files
-- `embeddings.npy`, `chunks.jsonl` — generated files
-- `.venv/` or `venv/` — local virtual environment
-- `__pycache__/`
-- Large PDFs such as `BNS2023.pdf`, unless you are sure you have permission to redistribute them
-
-These are already covered in `.gitignore`.
 
 ## Setup
 
